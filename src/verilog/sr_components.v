@@ -59,7 +59,7 @@ module LOAD_DATA_SEQ(
     reg [15:0] r_addr;
     wire [7:0] r_data;
 
-    ROM #(.INIT_FILE("mem.mem"), .READ_MODE("B")) MEM1(
+    ROM #(.INIT_FILE("mem_linear_test.mem"), .READ_MODE("B"), .OUTPUT_WIDTH(8)) MEM1(
         .r_addr(r_addr),
         .r_data(r_data)
     );
@@ -99,10 +99,6 @@ module LOAD_DATA_SEQ(
                 ready <= 1;
             end
         end
-    end
-
-    always @ (posedge master_clk) begin
-
     end
 
     assign master_clk_out = master_clk;

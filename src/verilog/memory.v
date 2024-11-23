@@ -1,11 +1,12 @@
 module ROM # (
     parameter INIT_FILE = "",
-    parameter READ_MODE = "H"
+    parameter READ_MODE = "H",
+    parameter OUTPUT_WIDTH = 8
 ) (
     input   [15:0]  r_addr,
     output  [7:0]   r_data
 );
-    reg [7:0] mem [0:65535];
+    reg [OUTPUT_WIDTH - 1:0] mem [0:65535];
 
     assign r_data = mem[r_addr];
 

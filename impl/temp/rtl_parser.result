@@ -1,41 +1,41 @@
 [
  {
-  "InstFile" : "C:/Users/HP/Desktop/The Tesseract/Prototype1-Linear/Prototype1/src/components.v",
+  "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/components.v",
   "InstLine" : 1,
   "InstName" : "COUNTER_32",
-  "ModuleFile" : "C:/Users/HP/Desktop/The Tesseract/Prototype1-Linear/Prototype1/src/components.v",
+  "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/components.v",
   "ModuleLine" : 1,
   "ModuleName" : "COUNTER_32"
  },
  {
-  "InstFile" : "C:/Users/HP/Desktop/The Tesseract/Prototype1-Linear/Prototype1/src/components.v",
+  "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/components.v",
   "InstLine" : 13,
   "InstName" : "FREQ_DIVIDER",
-  "ModuleFile" : "C:/Users/HP/Desktop/The Tesseract/Prototype1-Linear/Prototype1/src/components.v",
+  "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/components.v",
   "ModuleLine" : 13,
   "ModuleName" : "FREQ_DIVIDER"
  },
  {
-  "InstFile" : "C:/Users/HP/Desktop/The Tesseract/Prototype1-Linear/Prototype1/src/sr_components.v",
+  "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
   "InstLine" : 46,
   "InstName" : "LOAD_DATA_SEQ",
-  "ModuleFile" : "C:/Users/HP/Desktop/The Tesseract/Prototype1-Linear/Prototype1/src/sr_components.v",
+  "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
   "ModuleLine" : 46,
   "ModuleName" : "LOAD_DATA_SEQ",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/HP/Desktop/The Tesseract/Prototype1-Linear/Prototype1/src/sr_components.v",
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
     "InstLine" : 62,
     "InstName" : "MEM1",
-    "ModuleFile" : "C:/Users/HP/Desktop/The Tesseract/Prototype1-Linear/Prototype1/src/memory.v",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/memory.v",
     "ModuleLine" : 1,
     "ModuleName" : "ROM"
    },
    {
-    "InstFile" : "C:/Users/HP/Desktop/The Tesseract/Prototype1-Linear/Prototype1/src/sr_components.v",
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
     "InstLine" : 67,
     "InstName" : "SL1",
-    "ModuleFile" : "C:/Users/HP/Desktop/The Tesseract/Prototype1-Linear/Prototype1/src/sr_components.v",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
     "ModuleLine" : 1,
     "ModuleName" : "LOAD_DATA"
    }

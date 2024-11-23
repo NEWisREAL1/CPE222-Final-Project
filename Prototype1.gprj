@@ -5,10 +5,9 @@
     <Version>5</Version>
     <Device name="GW1NSR-4C" pn="GW1NSR-LV4CQN48PC7/I6">gw1nsr4c-009</Device>
     <FileList>
-        <File path="src/components.v" type="file.verilog" enable="1"/>
-        <File path="src/memory.v" type="file.verilog" enable="1"/>
-        <File path="src/sr_components.v" type="file.verilog" enable="1"/>
-        <File path="src/Prototype1.cst" type="file.cst" enable="1"/>
-        <File path="src/mem.mem" type="file.other" enable="1"/>
+        <File path="src/verilog/components.v" type="file.verilog" enable="1"/>
+        <File path="src/verilog/memory.v" type="file.verilog" enable="1"/>
+        <File path="src/verilog/sr_components.v" type="file.verilog" enable="1"/>
+        <File path="src/mem/mem_linear_test.mem" type="file.other" enable="1"/>
     </FileList>
 </Project>
