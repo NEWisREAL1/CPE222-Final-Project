@@ -1,6 +1,6 @@
 module LOAD_DATA(
     input               clk,
-    input       [7:0]   data,
+    input       [48:0]  data,
     input               reset,
     output reg          DS,
     output reg          SHCP,
@@ -8,7 +8,7 @@ module LOAD_DATA(
     output reg          MR,
     output reg          finish
 );
-    reg [3:0] count;
+    reg [31:0] count;
     reg loaded;
 
     initial begin
@@ -24,7 +24,7 @@ module LOAD_DATA(
             MR <= 1;
             if (!loaded) begin
                 SHCP <= 0;
-                if (count != 8) begin
+                if (count != 49) begin
                     DS <= data[count];
                     count <= count + 1;
                     loaded <= 1;
@@ -51,15 +51,14 @@ module LOAD_DATA_SEQ(
     output              SHCP,
     output              STCP,
     output              MR,
-    output              finish,
-    output              master_clk_out
+    output              finish
 );
     reg reset;
     reg ready, frame_changed;
     reg [15:0] r_addr;
-    wire [7:0] r_data;
+    wire [48:0] r_data;
 
-    ROM #(.INIT_FILE("mem_linear_test.mem"), .READ_MODE("B"), .OUTPUT_WIDTH(8)) MEM1(
+    ROM #(.INIT_FILE("mem_plane_test.mem"), .READ_MODE("B"), .OUTPUT_WIDTH(49)) MEM1(
         .r_addr(r_addr),
         .r_data(r_data)
     );
@@ -87,7 +86,7 @@ module LOAD_DATA_SEQ(
             if (ready) begin
                 ready <= 0;
                 reset <= 0;
-                if (r_addr == 76) begin // ADJUST THIS NUMBER TO MATCH THE NUMBER OF FRAME
+                if (r_addr == 7) begin // ADJUST THIS NUMBER TO MATCH THE NUMBER OF FRAME
                     r_addr <= 0;
                 end
                 else begin
@@ -100,6 +99,4 @@ module LOAD_DATA_SEQ(
             end
         end
     end
-
-    assign master_clk_out = master_clk;
 endmodule

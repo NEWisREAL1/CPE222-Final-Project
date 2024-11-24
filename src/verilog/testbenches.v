@@ -53,3 +53,39 @@ module LOAD_DATA_tb;
         reset = 0;
     end
 endmodule
+
+module LOAD_DATA_SEQ_tb;
+    reg               master_clk;
+    reg               frame_clk;
+    reg               manual_reset; // short `manual_reset` with low-active `OE` pin on shift register
+    wire              DS;
+    wire              SHCP;
+    wire              STCP;
+    wire              MR;
+    wire              finish;
+
+    LOAD_DATA_SEQ uut(
+        master_clk,
+        frame_clk,
+        manual_reset, // short `manual_reset` with low-active `OE` pin on shift register
+        DS,
+        SHCP,
+        STCP,
+        MR,
+        finish
+    );
+
+    always begin
+        #1; master_clk = ~master_clk;
+    end
+
+    always begin
+        #2700; frame_clk = ~frame_clk;
+    end
+
+    initial begin
+        master_clk = 0;
+        frame_clk = 0;
+        manual_reset = 0;
+    end
+endmodule

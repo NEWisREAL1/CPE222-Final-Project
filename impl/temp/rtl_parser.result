@@ -25,7 +25,7 @@
   "SubInsts" : [
    {
     "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
-    "InstLine" : 62,
+    "InstLine" : 61,
     "InstName" : "MEM1",
     "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/memory.v",
     "ModuleLine" : 1,
@@ -33,7 +33,7 @@
    },
    {
     "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
-    "InstLine" : 67,
+    "InstLine" : 66,
     "InstName" : "SL1",
     "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
     "ModuleLine" : 1,

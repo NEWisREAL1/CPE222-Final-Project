@@ -1,8 +1,8 @@
--d C:\Users\HP\Desktop\The Tesseract\Prototype1-Linear\Prototype1\impl\gwsynthesis\Prototype1.vg
+-d C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\impl\gwsynthesis\Prototype1.vg
 -p GW1NSR-4C-QFN48P-7
 -pn GW1NSR-LV4CQN48PC7/I6
--cst C:\Users\HP\Desktop\The Tesseract\Prototype1-Linear\Prototype1\src\Prototype1.cst
--cfg C:\Users\HP\Desktop\The Tesseract\Prototype1-Linear\Prototype1\impl\pnr\device.cfg
+-cst C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\src\Prototype1.cst
+-cfg C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\impl\pnr\device.cfg
 -bit
 -tr
 -ph

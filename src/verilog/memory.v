@@ -3,8 +3,8 @@ module ROM # (
     parameter READ_MODE = "H",
     parameter OUTPUT_WIDTH = 8
 ) (
-    input   [15:0]  r_addr,
-    output  [7:0]   r_data
+    input   [15:0]                 r_addr,
+    output  [OUTPUT_WIDTH - 1:0]   r_data
 );
     reg [OUTPUT_WIDTH - 1:0] mem [0:65535];
 
