@@ -9,7 +9,5 @@
         <File path="src/verilog/memory.v" type="file.verilog" enable="1"/>
         <File path="src/verilog/sr_components.v" type="file.verilog" enable="1"/>
         <File path="src/Prototype1.cst" type="file.cst" enable="1"/>
-        <File path="src/mem/mem_linear_test.mem" type="file.other" enable="1"/>
-        <File path="src/mem/mem_plane_test.mem" type="file.other" enable="1"/>
     </FileList>
 </Project>

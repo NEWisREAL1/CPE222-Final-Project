@@ -1,4 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="LOAD_DATA_SEQ" Register="2" Lut="3" T_Register="38(2)" T_Alu="31(0)" T_Lut="19(3)">
-    <SubModule name="SL1" Register="36" Alu="31" Lut="16" T_Register="36(36)" T_Alu="31(31)" T_Lut="16(16)"/>
-</Module>
+<Module name="top_module"/>

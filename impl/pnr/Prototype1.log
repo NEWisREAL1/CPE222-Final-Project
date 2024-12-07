@@ -7,15 +7,11 @@ Running placement......
 [10%] Placement Phase 0 completed
 [20%] Placement Phase 1 completed
 [30%] Placement Phase 2 completed
-WARN  (TA1132) :  'frame_clk' was determined to be a clock but was not created.
-WARN  (TA1132) :  'master_clk' was determined to be a clock but was not created.
 [50%] Placement Phase 3 completed
 Running routing......
 [60%] Routing Phase 0 completed
 [70%] Routing Phase 1 completed
 [80%] Routing Phase 2 completed
-WARN  (PR1014) : Generic routing resource will be used to clock signal 'frame_clk_d' by the specified constraint. And then it may lead to the excessive delay or skew
-WARN  (PR1014) : Generic routing resource will be used to clock signal 'master_clk_d' by the specified constraint. And then it may lead to the excessive delay or skew
 [90%] Routing Phase 3 completed
 Running timing analysis......
 [95%] Timing analysis completed
@@ -29,5 +25,5 @@ Generate file "C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\impl\pnr\Pr
 Generate file "C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\impl\pnr\Prototype1.rpt.html" completed
 Generate file "C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\impl\pnr\Prototype1.rpt.txt" completed
 Generate file "C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\impl\pnr\Prototype1.tr.html" completed
-Sun Nov 24 22:01:24 2024
+Fri Nov 29 17:10:26 2024
 

@@ -8,36 +8,70 @@
   "ModuleName" : "COUNTER_32"
  },
  {
-  "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/components.v",
-  "InstLine" : 13,
-  "InstName" : "FREQ_DIVIDER",
-  "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/components.v",
-  "ModuleLine" : 13,
-  "ModuleName" : "FREQ_DIVIDER"
- },
- {
   "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
-  "InstLine" : 46,
-  "InstName" : "LOAD_DATA_SEQ",
+  "InstLine" : 168,
+  "InstName" : "top_module",
   "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
-  "ModuleLine" : 46,
-  "ModuleName" : "LOAD_DATA_SEQ",
+  "ModuleLine" : 168,
+  "ModuleName" : "top_module",
   "SubInsts" : [
    {
     "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
-    "InstLine" : 61,
-    "InstName" : "MEM1",
-    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/memory.v",
-    "ModuleLine" : 1,
-    "ModuleName" : "ROM"
+    "InstLine" : 181,
+    "InstName" : "DIV1",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/components.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "FREQ_DIVIDER"
    },
    {
     "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
-    "InstLine" : 66,
-    "InstName" : "SL1",
+    "InstLine" : 186,
+    "InstName" : "DIV2",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/components.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "FREQ_DIVIDER"
+   },
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
+    "InstLine" : 191,
+    "InstName" : "DIV3",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/components.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "FREQ_DIVIDER"
+   },
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
+    "InstLine" : 197,
+    "InstName" : "LOADER",
     "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
-    "ModuleLine" : 1,
-    "ModuleName" : "LOAD_DATA"
+    "ModuleLine" : 47,
+    "ModuleName" : "LOAD_CUBE_DATA",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
+      "InstLine" : 83,
+      "InstName" : "MEM1",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/memory.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "ROM"
+     },
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
+      "InstLine" : 94,
+      "InstName" : "CONTROL_REG",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "LOAD_DATA"
+     },
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
+      "InstLine" : 105,
+      "InstName" : "COLORS_REG",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/src/verilog/sr_components.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "LOAD_DATA"
+     }
+    ]
    }
   ]
  }
