@@ -1,13 +1,4 @@
-{C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v} {1 {vlog -work work -stats=none {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module FULL_SCANNING_CUBE
--- Compiling module SLOW_SCANNING_CUBE
-
-Top level modules:
-	FULL_SCANNING_CUBE
-	SLOW_SCANNING_CUBE
-
-} {} {}} {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v} {1 {vlog -work work -stats=none {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v}
+{C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v} {1 {vlog -work work -stats=none {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module ROM
 -- Compiling module ROM_7LINE

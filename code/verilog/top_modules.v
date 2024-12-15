@@ -38,7 +38,7 @@ module FULL_SCANNING_CUBE # (
     LOAD_DATA_SEQUENCE_7LINE_MEM # (
         .DATA_WIDTH(8),
         .DATA_COUNTER_WIDTH(6),
-        .SEQ_COUNT(21),
+        .SEQ_COUNT(7),
         .SEQ_COUNTER_WIDTH(9),
         .MEM_FILE("test_7line.mem")
     ) CONTROLS_PINS_SH (
@@ -58,7 +58,7 @@ module FULL_SCANNING_CUBE # (
         //.CLK_RATIO(200),
         .DATA_WIDTH(8),
         .DATA_COUNTER_WIDTH(4),
-        .SEQ_COUNT(21),
+        .SEQ_COUNT(7),
         .SEQ_COUNTER_WIDTH(5),
         .MEM_FILE("red_pattern.mem")
     ) RED_PINS_SH (
@@ -80,7 +80,7 @@ module FULL_SCANNING_CUBE # (
         //.CLK_RATIO(200),
         .DATA_WIDTH(8),
         .DATA_COUNTER_WIDTH(4),
-        .SEQ_COUNT(21),
+        .SEQ_COUNT(7),
         .SEQ_COUNTER_WIDTH(5),
         .MEM_FILE("green_pattern.mem")
     ) GREEN_PINS_SH (
@@ -102,7 +102,7 @@ module FULL_SCANNING_CUBE # (
         //.CLK_RATIO(200),
         .DATA_WIDTH(8),
         .DATA_COUNTER_WIDTH(4),
-        .SEQ_COUNT(21),
+        .SEQ_COUNT(7),
         .SEQ_COUNTER_WIDTH(5),
         .MEM_FILE("blue_pattern.mem")
     ) BLUE_PINS_SH (
@@ -129,7 +129,7 @@ module FULL_SCANNING_CUBE # (
     end
 
     always @ (posedge state_clk) begin
-        if (current_state == 5'd20) begin
+        if (current_state == 5'd6) begin
             current_state <= 0;
         end
         else begin
@@ -187,7 +187,7 @@ module SLOW_SCANNING_CUBE (
     wire slave_clk;
     reg [12:0] r_addr;
     reg [12:0] pre_r_addr;
-    wire [2:0] current_plane;
+    wire [12:0] current_plane;
     wire [7:0] color_picker;
     wire [1:0] color;
     wire [7:0] data [0:6];
@@ -201,7 +201,7 @@ module SLOW_SCANNING_CUBE (
     ) CLK_DIV (
         .in_clk(master_clk),
         .reset(reset),
-        .divider(24'd13500000/*24'd20000*/), // 27MHz to 2Hz
+        .divider(/*24'd13500000*/24'd2000), // 27MHz to 2Hz
         .out_clk(slave_clk) 
     );
 
@@ -210,7 +210,7 @@ module SLOW_SCANNING_CUBE (
         .READ_MODE("B"),
         .DATA_WIDTH(8),
         .MEM_SLOT(7),
-        .SLOT_COUNT_WIDTH(9)
+        .SLOT_COUNT_WIDTH(12)
     ) COLOR_MEM (
         .r_addr(r_addr),
         .r_data(color_picker)
