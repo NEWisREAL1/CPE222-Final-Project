@@ -1,0 +1,47 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\components.v'
+Analyzing Verilog file 'C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\memory.v'
+Analyzing Verilog file 'C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\shift_control.v'
+Analyzing Verilog file 'C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\top_modules.v'
+WARN  (EX3073) : Port 'MR_' remains unconnected for this instance("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\top_modules.v":236)
+WARN  (EX3073) : Port 'STCP' remains unconnected for this instance("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\top_modules.v":250)
+WARN  (EX3073) : Port 'STCP' remains unconnected for this instance("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\top_modules.v":264)
+WARN  (EX3073) : Port 'STCP' remains unconnected for this instance("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\top_modules.v":278)
+Compiling module 'SLOW_SCANNING_CUBE'("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\top_modules.v":167)
+Compiling module 'FREQ_DIVIDER(DIV_COUNTER_WIDTH=24)'("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\components.v":13)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\components.v":32)
+Compiling module 'ROM(INIT_FILE="smolguy_color.mem",MEM_SLOT=7,SLOT_COUNT_WIDTH=9)'("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\memory.v":1)
+Extracting RAM for identifier 'mem'("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\memory.v":11)
+WARN  (EX3670) : Actual bit length 13 differs from formal bit length 9 for port 'r_addr'("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\top_modules.v":215)
+Compiling module 'LOAD_DATA_SEQUENCE_7LINE_MEM(SEQ_COUNT=7,SEQ_COUNTER_WIDTH=12,MEM_FILE="smolguy.mem")'("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\shift_control.v":138)
+Compiling module 'ROM_7LINE(INIT_FILE="smolguy.mem",MEM_SLOT=49)'("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\memory.v":21)
+Extracting RAM for identifier 'mem'("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\memory.v":37)
+Compiling module 'LOAD_DATA(DATA_WIDTH=56,COUNTER_WIDTH=6)'("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\shift_control.v":1)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\shift_control.v":27)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\shift_control.v":215)
+Compiling module 'LOAD_DATA'("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\shift_control.v":1)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\shift_control.v":27)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\top_modules.v":307)
+NOTE  (EX0101) : Current top module is "SLOW_SCANNING_CUBE"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "ROM" instantiated to "COLOR_MEM" is swept in optimizing("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\top_modules.v":217)
+WARN  (NL0002) : The module "ROM_7LINE" instantiated to "MEM" is swept in optimizing("C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\code\verilog\shift_control.v":183)
+[95%] Generate netlist file "C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\gowin_project\tesseract\impl\gwsynthesis\tesseract.vg" completed
+[100%] Generate report file "C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\gowin_project\tesseract\impl\gwsynthesis\tesseract_syn.rpt.html" completed
+GowinSynthesis finish

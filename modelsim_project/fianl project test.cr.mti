@@ -1,0 +1,57 @@
+{C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v} {1 {vlog -work work -stats=none {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FULL_SCANNING_CUBE
+-- Compiling module SLOW_SCANNING_CUBE
+
+Top level modules:
+	FULL_SCANNING_CUBE
+	SLOW_SCANNING_CUBE
+
+} {} {}} {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v} {1 {vlog -work work -stats=none {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ROM
+-- Compiling module ROM_7LINE
+-- Compiling module ROM_8LINE
+
+Top level modules:
+	ROM
+	ROM_7LINE
+	ROM_8LINE
+
+} {} {}} {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_sim.v} {1 {vlog -work work -stats=none {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_sim.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SH_74HC595
+-- Compiling module SH_7CHAIN
+-- Compiling module shift_tb
+-- Compiling module shift_data_tb
+-- Compiling module shift_data_seq_tb
+-- Compiling module scanning_cube_tb
+-- Compiling module slow_scanning_cube_tb
+
+Top level modules:
+	shift_tb
+	shift_data_tb
+	shift_data_seq_tb
+	scanning_cube_tb
+	slow_scanning_cube_tb
+
+} {} {}} {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v} {1 {vlog -work work -stats=none {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module LOAD_DATA
+-- Compiling module LOAD_DATA_SEQUENCE
+-- Compiling module LOAD_DATA_SEQUENCE_7LINE_MEM
+
+Top level modules:
+	LOAD_DATA_SEQUENCE
+	LOAD_DATA_SEQUENCE_7LINE_MEM
+
+} {} {}} {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/components.v} {1 {vlog -work work -stats=none {C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/components.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module COUNTER_32
+-- Compiling module FREQ_DIVIDER
+
+Top level modules:
+	COUNTER_32
+	FREQ_DIVIDER
+
+} {} {}}

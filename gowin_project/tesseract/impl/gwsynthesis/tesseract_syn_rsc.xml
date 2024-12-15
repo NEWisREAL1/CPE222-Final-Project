@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="SLOW_SCANNING_CUBE" Register="34" Alu="24" Lut="14" T_Register="99(34)" T_Alu="40(24)" T_Lut="129(14)">
+    <SubModule name="CLK_DIV" Register="25" Lut="52" T_Register="25(25)" T_Lut="52(52)"/>
+    <SubModule name="CONTROL_SHIFTER" Register="24" Alu="11" Lut="19" T_Register="34(24)" T_Alu="16(11)" T_Lut="55(19)">
+        <SubModule name="LOADER" Register="10" Alu="5" Lut="36" T_Register="10(10)" T_Alu="5(5)" T_Lut="36(36)"/>
+    </SubModule>
+    <SubModule name="RED_SHIFTER" Register="1" Lut="1" T_Register="1(1)" T_Lut="1(1)"/>
+    <SubModule name="GREEN_SHIFTER" Register="4" Lut="7" T_Register="4(4)" T_Lut="7(7)"/>
+    <SubModule name="BLUE_SHIFTER" Register="1" T_Register="1(1)"/>
+</Module>

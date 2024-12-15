@@ -1,0 +1,423 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/HP/Desktop/The Tesseract/Prototype1-Linear/sim
+vCOUNTER_32
+Z0 !s110 1734100951
+!i10b 1
+!s100 f7;VhOodCI8Kd_b2VB^EN3
+IPZF;R_GA=d>kOIS9k]fK]0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/modelsim_project
+Z3 w1734100166
+Z4 8C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/components.v
+Z5 FC:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/components.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1734100951.000000
+Z8 !s107 C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/components.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/components.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@c@o@u@n@t@e@r_32
+vFREQ_DIVIDER
+R0
+!i10b 1
+!s100 Qm^??809^i5@kMPziz:D<2
+IQP8AL9EE>cjnd<C6J2P5@0
+R1
+R2
+R3
+R4
+R5
+L0 13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@f@r@e@q_@d@i@v@i@d@e@r
+vFULL_SCANNING_CUBE
+Z12 !s110 1734101419
+!i10b 1
+!s100 8WXI9T66hO;`PhRU7VW[B1
+IQaQj3Y^fCjBcm0=WBdMCQ2
+R1
+R2
+Z13 w1734101405
+Z14 8C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v
+Z15 FC:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z16 !s108 1734101419.000000
+Z17 !s107 C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v|
+!i113 1
+R10
+R11
+n@f@u@l@l_@s@c@a@n@n@i@n@g_@c@u@b@e
+vLOAD_DATA
+R0
+!i10b 1
+!s100 WHllb5nTF4WJVX1`8a`UN2
+Ia^BO=7`]5IBUa1:9V^;Ih2
+R1
+R2
+Z19 w1734100288
+Z20 8C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v
+Z21 FC:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+Z22 !s107 C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v|
+Z23 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v|
+!i113 1
+R10
+R11
+n@l@o@a@d_@d@a@t@a
+vLOAD_DATA_SEQUENCE
+R0
+!i10b 1
+!s100 @icD@HKHS1oj3@90bjInH2
+I@]?BQl;@3mkajbNKV<3?C2
+R1
+R2
+R19
+R20
+R21
+Z24 L0 58
+R6
+r1
+!s85 0
+31
+R7
+R22
+R23
+!i113 1
+R10
+R11
+n@l@o@a@d_@d@a@t@a_@s@e@q@u@e@n@c@e
+vLOAD_DATA_SEQUENCE_7LINE_MEM
+R0
+!i10b 1
+!s100 ;VPmN3CFYkGC6bJgVUWn@2
+ITC`7E6=<ZaaY0j=feaDC:3
+R1
+R2
+R19
+R20
+R21
+L0 138
+R6
+r1
+!s85 0
+31
+R7
+R22
+R23
+!i113 1
+R10
+R11
+n@l@o@a@d_@d@a@t@a_@s@e@q@u@e@n@c@e_7@l@i@n@e_@m@e@m
+vROM
+R0
+!i10b 1
+!s100 ?0^fLO3cg`Gnem3=W76L_3
+IRAc@AhY=?la<?k^<:C@G10
+R1
+R2
+Z25 w1734094907
+Z26 8C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v
+Z27 FC:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+Z28 !s107 C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v|
+Z29 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v|
+!i113 1
+R10
+R11
+n@r@o@m
+vROM_7LINE
+R0
+!i10b 1
+!s100 IHdgaVfO;;ob`;dVW<eIX1
+IFQ3UoNk1Ckb[ZGXjMf57c1
+R1
+R2
+R25
+R26
+R27
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R28
+R29
+!i113 1
+R10
+R11
+n@r@o@m_7@l@i@n@e
+vROM_8LINE
+R0
+!i10b 1
+!s100 Rb@^^>@VoEM36=A1H6_5Y0
+IMXC[6V5HbY?j3047jFFDW1
+R1
+R2
+R25
+R26
+R27
+L0 53
+R6
+r1
+!s85 0
+31
+R7
+R28
+R29
+!i113 1
+R10
+R11
+n@r@o@m_8@l@i@n@e
+vSCANNING_CUBE
+!s110 1733935218
+!i10b 1
+!s100 >Hi[dS:Ha`KD>o^DNK7zM0
+ImjoI=T@zB>K6Uo3SZEH0a3
+R1
+R2
+w1733935208
+R20
+R21
+L0 227
+R6
+r1
+!s85 0
+31
+!s108 1733935217.000000
+R22
+R23
+!i113 1
+R10
+R11
+n@s@c@a@n@n@i@n@g_@c@u@b@e
+vscanning_cube_tb
+R0
+!i10b 1
+!s100 hcZGV2MC5N3b8IMG^hF7a2
+IbA>_1H5GF7B0Omeio7TUj3
+R1
+R2
+Z30 w1734100428
+Z31 8C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_sim.v
+Z32 FC:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_sim.v
+L0 277
+R6
+r1
+!s85 0
+31
+Z33 !s108 1734100950.000000
+Z34 !s107 C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_sim.v|
+Z35 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_sim.v|
+!i113 1
+R10
+R11
+vSH_74HC595
+R0
+!i10b 1
+!s100 _FN4R`EX@z<PEh9J?LPIY0
+I]]7Oio92;OAgI[D=TLXDO0
+R1
+R2
+R30
+R31
+R32
+L0 1
+R6
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R10
+R11
+n@s@h_74@h@c595
+vSH_7CHAIN
+R0
+!i10b 1
+!s100 GDYoPXAhW]aZHI1zJjUe]2
+Id?>g=>^FKT:BDDhSbok`[0
+R1
+R2
+R30
+R31
+R32
+L0 38
+R6
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R10
+R11
+n@s@h_7@c@h@a@i@n
+vshift_data_seq_tb
+R0
+!i10b 1
+!s100 5AC5:Og@;QgcY7Ao[Emb=2
+Ic1=F>cQN7PPZzl1c=g;RD1
+R1
+R2
+R30
+R31
+R32
+L0 178
+R6
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R10
+R11
+vshift_data_tb
+R0
+!i10b 1
+!s100 ?3PGSY]5P0FjkL4hKBHAg3
+IoZNOM3MlAzJgbeI[_7L1?1
+R1
+R2
+R30
+R31
+R32
+L0 131
+R6
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R10
+R11
+vshift_tb
+R0
+!i10b 1
+!s100 H:^49`cUdo=_HEf5<Ic7^3
+Ik<cNJHieO8?2;_2WizA=^0
+R1
+R2
+R30
+R31
+R32
+R24
+R6
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R10
+R11
+vSLOW_SCANNING_CUBE
+R12
+!i10b 1
+!s100 b7W_CZzRHI@]1?icO;`1;2
+IKlG5?gMISW2C0KXU_DF_@2
+R1
+R2
+R13
+R14
+R15
+L0 166
+R6
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R10
+R11
+n@s@l@o@w_@s@c@a@n@n@i@n@g_@c@u@b@e
+vslow_scanning_cube_tb
+R0
+!i10b 1
+!s100 h4Zg13KlTTb9N02H_2IKS1
+I9[:zB>DlIGPVC>F;FDLHY3
+R1
+R2
+R30
+R31
+R32
+L0 378
+R6
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R10
+R11
+vTOP_MODULE
+!s110 1733848694
+!i10b 1
+!s100 1^jQbZ8i_7Ic]RnHBV^Pb1
+IP=cRl53Q7;73idVJB9No21
+R1
+R2
+w1733848689
+R20
+R21
+L0 221
+R6
+r1
+!s85 0
+31
+!s108 1733848694.000000
+R22
+R23
+!i113 1
+R10
+R11
+n@t@o@p_@m@o@d@u@l@e

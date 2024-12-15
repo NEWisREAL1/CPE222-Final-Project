@@ -1,0 +1,15 @@
+-d C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\gowin_project\tesseract\impl\gwsynthesis\tesseract.vg
+-p GW1NSR-4C-QFN48P-7
+-pn GW1NSR-LV4CQN48PC7/I6
+-cst C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\gowin_project\tesseract\src\tesseract.cst
+-cfg C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\gowin_project\tesseract\impl\pnr\device.cfg
+-sdc C:\Users\HP\Desktop\CPE222 Final\CPE222-Final-Project\gowin_project\tesseract\src\tesseract.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

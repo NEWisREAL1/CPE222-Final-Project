@@ -1,0 +1,216 @@
+[
+ {
+  "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/components.v",
+  "InstLine" : 1,
+  "InstName" : "COUNTER_32",
+  "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/components.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "COUNTER_32"
+ },
+ {
+  "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v",
+  "InstLine" : 53,
+  "InstName" : "ROM_8LINE",
+  "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v",
+  "ModuleLine" : 53,
+  "ModuleName" : "ROM_8LINE"
+ },
+ {
+  "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+  "InstLine" : 1,
+  "InstName" : "FULL_SCANNING_CUBE",
+  "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "FULL_SCANNING_CUBE",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+    "InstLine" : 31,
+    "InstName" : "DIV1",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/components.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "FREQ_DIVIDER"
+   },
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+    "InstLine" : 44,
+    "InstName" : "CONTROLS_PINS_SH",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+    "ModuleLine" : 138,
+    "ModuleName" : "LOAD_DATA_SEQUENCE_7LINE_MEM",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "InstLine" : 174,
+      "InstName" : "MEM",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "ROM_7LINE"
+     },
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "InstLine" : 195,
+      "InstName" : "LOADER",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "LOAD_DATA"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+    "InstLine" : 64,
+    "InstName" : "RED_PINS_SH",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+    "ModuleLine" : 58,
+    "ModuleName" : "LOAD_DATA_SEQUENCE",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "InstLine" : 92,
+      "InstName" : "MEM",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "ROM"
+     },
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "InstLine" : 107,
+      "InstName" : "LOADER",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "LOAD_DATA"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+    "InstLine" : 86,
+    "InstName" : "GREEN_PINS_SH",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+    "ModuleLine" : 58,
+    "ModuleName" : "LOAD_DATA_SEQUENCE",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "InstLine" : 92,
+      "InstName" : "MEM",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "ROM"
+     },
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "InstLine" : 107,
+      "InstName" : "LOADER",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "LOAD_DATA"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+    "InstLine" : 108,
+    "InstName" : "BLUE_PINS_SH",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+    "ModuleLine" : 58,
+    "ModuleName" : "LOAD_DATA_SEQUENCE",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "InstLine" : 92,
+      "InstName" : "MEM",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "ROM"
+     },
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "InstLine" : 107,
+      "InstName" : "LOADER",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "LOAD_DATA"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+  "InstLine" : 167,
+  "InstName" : "SLOW_SCANNING_CUBE",
+  "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+  "ModuleLine" : 167,
+  "ModuleName" : "SLOW_SCANNING_CUBE",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+    "InstLine" : 201,
+    "InstName" : "CLK_DIV",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/components.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "FREQ_DIVIDER"
+   },
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+    "InstLine" : 214,
+    "InstName" : "COLOR_MEM",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "ROM"
+   },
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+    "InstLine" : 225,
+    "InstName" : "CONTROL_SHIFTER",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+    "ModuleLine" : 138,
+    "ModuleName" : "LOAD_DATA_SEQUENCE_7LINE_MEM",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "InstLine" : 174,
+      "InstName" : "MEM",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/memory.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "ROM_7LINE"
+     },
+     {
+      "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "InstLine" : 195,
+      "InstName" : "LOADER",
+      "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "LOAD_DATA"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+    "InstLine" : 241,
+    "InstName" : "RED_SHIFTER",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "LOAD_DATA"
+   },
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+    "InstLine" : 255,
+    "InstName" : "GREEN_SHIFTER",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "LOAD_DATA"
+   },
+   {
+    "InstFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/top_modules.v",
+    "InstLine" : 269,
+    "InstName" : "BLUE_SHIFTER",
+    "ModuleFile" : "C:/Users/HP/Desktop/CPE222 Final/CPE222-Final-Project/code/verilog/shift_control.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "LOAD_DATA"
+   }
+  ]
+ }
+]
